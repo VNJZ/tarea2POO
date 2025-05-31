@@ -10,9 +10,8 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
-import java.util.Scanner;
 
-public class Stage3 extends Application {
+public class PubSubsPatternSimulator extends Application {
     private VBox vBoxLeftPublishers;
     private VBox vBoxRightSubscribers;
     private Broker brokerInstance;
